@@ -23,5 +23,5 @@ $(call inherit-product, device/lge/g2m-common/g2m.mk)
 # Specific overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-$(call inherit-product, vendor/lge/g2m-common/g2m-common-vendor.mk)
+$(call inherit-product, vendor/lge/g2m/g2m-vendor.mk)
 

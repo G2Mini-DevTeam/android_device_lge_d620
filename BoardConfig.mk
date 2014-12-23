@@ -21,7 +21,7 @@
 # definition file).
 #
 
-include device/lge/g2-common/BoardConfigCommon.mk
+include device/lge/g2mini-common/BoardConfigCommon.mk
 
 G2M_DTS_TARGET := msm8226-g2m_global_com
 

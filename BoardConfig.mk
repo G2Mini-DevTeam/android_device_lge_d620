@@ -23,4 +23,8 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-G2M_DTS_TARGET := msm8226-g2mss_global_com
+G2M_DTS_TARGET := msm8226-g2m_global_com
+
+TARGET_KERNEL_CONFIG := cm12_d620_defconfig
+
+TARGET_BOOTLOADER_BOARD_NAME := MSM8926

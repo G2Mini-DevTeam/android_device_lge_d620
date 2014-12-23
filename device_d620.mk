@@ -23,10 +23,5 @@ $(call inherit-product, device/lge/g2m-common/g2m.mk)
 # Specific overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Radio and Telephony
-PRODUCT_PROPERTY_OVERRIDES += \
-    telephony.lteOnGsmDevice=1 \
-    telephony.lteOnCdmaDevice=0
-
 $(call inherit-product, vendor/lge/g2m-common/g2m-common-vendor.mk)
 

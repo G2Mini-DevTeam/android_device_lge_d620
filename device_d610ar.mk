@@ -28,13 +28,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGsmDevice=1 \
     telephony.lteOnCdmaDevice=0
 
-
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-
-PRODUCT_LOCALES := en_US
-PRODUCT_LOCALES += hdpi
-PRODUCT_AAPT_CONFIG := normal hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
-
 $(call inherit-product, vendor/lge/g2m-common/g2m-common-vendor.mk)
 

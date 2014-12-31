@@ -23,7 +23,7 @@
 
 include device/lge/g2mini-common/BoardConfigCommon.mk
 
-G2MINI_DTS_TARGET := msm8926-g2m_global_com
+G2MINI_DTS_TARGET := msm8226-g2m_global_com
 
 TARGET_KERNEL_CONFIG := cm12_g2m_defconfig
 

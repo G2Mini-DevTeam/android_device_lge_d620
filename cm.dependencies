@@ -1,8 +1,2 @@
 [
-  {
-    "repository": "android_device_lge_g2m-common",
-    "target_path": "device/lge/g2m-common",
-    "remote": "github",
-    "revision": "cm12"
-  }
 ]
